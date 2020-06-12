@@ -73,7 +73,7 @@ app.get('/about',(req,res)=>{
 app.get('/help',(req,res)=>{
     res.render('help',{
         title:'Help',
-        message:'Enter the location to get the forecast. Enter a valid location otherwise no forecast will be  showed.',
+        message:'Enter the location and hit the search to get the forecast.Please provide a valid location to get the forecast.',
         name:'Raj'
     })
 })
